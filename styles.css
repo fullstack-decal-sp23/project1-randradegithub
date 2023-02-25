@@ -1,0 +1,156 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#background-img{
+    height: 952px;
+    background: url(griffithObsSkyline.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#main-title{
+    position:relative;
+    top: 25%;
+    color: white;
+    z-index: 3;
+    text-align: center;
+}
+
+#big {
+    font-size: 72px;
+    font-weight: 300px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+    display: inline-block;
+    margin: 10px 0px;
+    overflow: hidden;
+}
+
+#small{
+    font-size: 24px;
+}
+
+#navbar{
+    background: #eb683d;
+    text-align: center;
+    height: 45px;
+    margin-bottom: -45px;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 4;
+    
+}
+#navbar.sticky{
+    background: #eb683d;
+    text-align: center;
+    height: 45px;
+    margin-bottom: -45px;
+    position: fixed;
+    top: 0;
+}
+nav a{
+    display: inline-block;
+    font-size: 24px;
+    margin: 10px 40px;
+    color: white;
+    margin: 0px 20px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+header{
+    text-align:center;
+}
+
+header h1{
+    padding-top: 50px;
+    margin: 30px;
+    font-size: 48px;
+}
+
+header h2{
+    margin: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #727878;
+    color: black;
+}
+
+#profile-pic div{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 12px solid ;
+    border-color: #F5F1DE;
+    display: block;
+    margin: 0 auto;
+    background: url(DSC01683.JPG) 0 -100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#about-me{
+    margin:2em 12em;
+    text-align:center;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.beige{
+    background-color: #F5F1DE;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    margin: 2em 8em;
+
+}
+
+.image {
+    float: right;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.description{
+    padding: 2em 5em;
+    text-align:left;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+#contact-text{
+    line-height: 35px;
+    margin: 1.5em 12em;
+    text-align: center;
+    padding:0em 8em;
+}
+
+#text-box{
+    margin: 2em 12em;
+}
+
+#form{
+    text-align: center;
+}
+
+author {
+    visibility: hidden;
+}
